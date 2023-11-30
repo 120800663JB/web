@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Daniel </title>
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <main>
+            <form action="">
+                Does Daniel SUck?<br>
+                <input type="text" name="daniel" size="25">
+                <br>
+
+                <a href="#" onclick="clickF()">Take the daniel survey!</a>
+            </form>
+
+            <script>
+                function clickF() {
+                    let answer = prompt("Is daniel Silly?");
+
+                    while(answer != "yes" || answer != "no") {
+                        answer = prompt("Is daniel silly yes or no?");
+                    } 
+
+                    if (answer == "yes") {
+                        alert("Yes daniel is very silly");
+                    } else {
+                        alert("I think you ment to type yes?");
+                    }
+                }
+            </script>
+        </main>
+    </body>
+</html>
