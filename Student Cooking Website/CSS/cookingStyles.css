@@ -1,0 +1,101 @@
+:root {
+  --brown: #db8623;
+  --dark_brown: #8B4513;
+}
+
+* {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+
+body {
+    background-color: var(--brown);
+    list-style-type: disc;
+}
+
+header {
+    background-color: var(--brown);
+    border-style: solid;
+    border-color: var(--brown);
+    border-width: 20px;
+}
+
+header h1 {
+    color: var(--dark_brown);
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+.imageBanner {
+    position: relative;
+    left: 1005px;
+    bottom: 10px;
+}
+
+nav {
+  border-style: solid;
+    border-color: var(--brown);
+    border-width: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--dark_brown);
+  }
+  
+nav li {
+    float: left;
+  }
+  
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 26px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  nav li a:hover {
+    background-color: var(--brown);
+    color: white;
+  }
+
+main {
+    background-color: #fcd19f;
+    padding: 10px;
+    border-style: solid;
+    border-color: var(--brown);
+    border-width: 20px;
+}
+
+#studentText {
+  padding-left: 250px;
+  position: relative;
+  bottom: 150px;
+}
+
+footer {
+  background-color: var(--dark_brown);
+  border-style: solid;
+  border-color: var(--brown);
+  border-width: 20px;
+  padding: 20px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer li a {
+  display: block;
+  color: black;
+}
+
+footer li a:hover {
+    color: white;
+  }
